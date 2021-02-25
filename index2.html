@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>travel8</title>
+</head>
+<body>
+    
+    <section class="showcase">
+        <header>
+          <h2 class="logo">Travel</h2>
+          <div class="toggle"></div>
+        </header>
+        <video src="https://ak.picdn.net/shutterstock/videos/1025545688/preview/stock-footage-green-jungle-trees-and-palms-against-blue-sky-and-shining-sun-travel-vacation-nature-concept-look.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+          <h2>Never Stop To </h2> 
+          <h3>Exploring The World</h3>
+          <p> <q> travel is not always pretty. it is not always cmfortable. sometimes it hurts, it even breaks your heart. but that's okay
+              . the journey chnages you ; it should changes you . it leaves marks on your memory, on your consciousness, on your heart,
+               and on your body. you take something with you. hopefully, you leave something good behind</q>
+          </p>
+          <a href="#">Explore</a>
+        </div>
+        <ul class="social">
+          <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+          <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+          <li><a href="https://www.instagram.com/aishaa.1903/"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+        </ul>
+      </section>
+      <div class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Destination</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    <script>
+      const menuToggle = document.querySelector('.toggle');
+          const showcase = document.querySelector('.showcase');
+    
+          menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            showcase.classList.toggle('active');
+          })
+
+</script>
+
+</body>
+</html>
